@@ -72,12 +72,12 @@
 
       <!-- carousel- banner section -->
 
-     <section>
+     <section class="container mx-auto">
       <div class="carousel w-full">
         <!-- slide 1 -->
         <div id="slide1" class="carousel-item relative w-full">
           <div
-            class="flex flex-col lg:flex-row justify-between w-full items-center bg-[#E76F51] bg-opacity-10 rounded-lg lg:p-24 p-12"
+            class="flex flex-col lg:flex-row justify-between w-full items-center bg-[#E76F51] bg-opacity-10 rounded-lg lg:p-24"
           >
             <div class="max-w-sm space-y-3">
               <h2 class="font-bold text-6xl text-black">
@@ -217,8 +217,8 @@
 
       <!-- featured bike section -->
 
-      <section class="text-center space-y-3">
-        <h3 class="text-5xl font-semibold text-black">Featured Bikes In This Year</h3>
+      <section class="text-center space-y-3 container mx-auto">
+        <h3 class="text-4xl font-bold text-black">Featured Bikes In This Year</h3>
         <h5 class="text-[#E76F51] font-semibold text-xs ">Best<span class="underline"> bike colle</span>ction</h5>
         <div class="grid md:grid-cols-3 justify-evenly px-12 items-center justify-center">
           <img src="./images/others/black-bike.jpg" alt="">
@@ -231,7 +231,7 @@
 
       <!-- latest bikes section -->
 
-      <section class="space-y-4">
+      <section class="space-y-4 container mx-auto">
         <h3 class="font-bold text-4xl text-black text-center">Latest Bikes</h3>
         <dev class="grid md:grid-cols-2 lg:grid-cols-4  gap-5">
           <!-- latest bike 1 -->
@@ -309,6 +309,129 @@
           </div>
         </dev>
       </section>
+
+      <!-- Happy clients section -->
+       <section class="space-y-4 container mx-auto">
+          <h3 class="text-4xl font-bold text-black text-center">Happy <span class="text-[#E76F51]">Clients Says</span></h3>
+         <div class="grid md:grid-cols-3 gap-8">
+             <!-- client 1 -->
+          <div class="text-center border border-[#DEDEDE] rounded-md py-10 px-8 space-y-3">
+            <div class="avatar">
+              <div class="w-24 rounded-full">
+                <img src="images/others/user-1.png" />
+              </div>
+            </div>
+            <p>Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.</p>
+
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <h4 class="text-[#23A6F0] font-semibold ">Regina Miles</h4>
+              <h4 class="text-[#252B42] font-semibold">Banker</h4>
+
+          </div>
+          <!-- client 2 -->
+          <div class="text-center border border-[#DEDEDE] rounded-md py-10 px-8 space-y-3">
+            <div class="avatar">
+              <div class="w-24 rounded-full">
+                <img src="images/others/user-2.png" />
+              </div>
+            </div>
+            <p>Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.</p>
+
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <h4 class="text-[#23A6F0] font-semibold ">Regina Miles</h4>
+              <h4 class="text-[#252B42] font-semibold">Banker</h4>
+
+          </div>
+          <!-- client 3 -->
+          <div class="text-center border border-[#DEDEDE] rounded-md py-10 px-8 space-y-3">
+            <div class="avatar">
+              <div class="w-24 rounded-full">
+                <img src="images/others/user-3.png" />
+              </div>
+            </div>
+            <p>Slate helps you see how 
+              many more days you need 
+              to work to reach your financial 
+              goal for the month and year.</p>
+
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <h4 class="text-[#23A6F0] font-semibold ">Regina Miles</h4>
+              <h4 class="text-[#252B42] font-semibold">Banker</h4>
+          </div>
+         </div>
+       </section>
+
+       <!-- frequently asked questions -->
+
+       <section class="container mx-auto">
+        <h3 class="text-4xl font-bold text-black text-center mb-4">Frequently Asked <span class="text-[#E76F51]">
+          Questions</span></h3>
+         <div class="lg:flex items-center justify-between gap-36 space-y-4">
+          <div>
+            <img src="images/others/faq.png" alt="" class="max-w-md mx-auto">
+          </div>
+
+         <div class="space-y-4 max-w-xl mx-auto">
+          <div class="collapse collapse-arrow border rounded-sm">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium text-[#383838]">What are the most important things I should know about riding a bike?</div>
+            <div class="collapse-content">
+              <p class="text-sm text-[#7E848C]">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow border rounded-sm">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium text-[#383838]">What are the most important things I should know about riding a bike?</div>
+          </div>
+          <div class="collapse collapse-arrow border rounded-sm">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium text-[#383838]">My bike has been in storage is it safe to ride?</div>
+          </div>
+
+          <div class="collapse collapse-arrow border rounded-sm">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium text-[#383838]">What rules should I follow when riding my bike?</div>
+          </div>
+          
+         </div>
+         </div>
+       </section>
     </main>
 
     <!-- footer section -->

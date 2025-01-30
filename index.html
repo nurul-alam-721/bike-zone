@@ -16,6 +16,14 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+   <style>
+     .manrope-font {
+      font-family: "Manrope", serif;
+    }
+    .poppins-font {
+      font-family: "poppins", serif;
+    }
+   </style>
   </head>
   <body class="poppins-font">
     <!-- header section -->
@@ -318,7 +326,7 @@
           <div class="text-center border border-[#DEDEDE] rounded-md py-10 px-8 space-y-3">
             <div class="avatar">
               <div class="w-24 rounded-full">
-                <img src="images/others/user-1.png" />
+                <img src="./images/others/user-1.png" />
               </div>
             </div>
             <p>Slate helps you see how 
@@ -345,7 +353,7 @@
           <div class="text-center border border-[#DEDEDE] rounded-md py-10 px-8 space-y-3">
             <div class="avatar">
               <div class="w-24 rounded-full">
-                <img src="images/others/user-2.png" />
+                <img src="./images/others/user-2.png" />
               </div>
             </div>
             <p>Slate helps you see how 
@@ -372,7 +380,7 @@
           <div class="text-center border border-[#DEDEDE] rounded-md py-10 px-8 space-y-3">
             <div class="avatar">
               <div class="w-24 rounded-full">
-                <img src="images/others/user-3.png" />
+                <img src="./images/others/user-3.png" />
               </div>
             </div>
             <p>Slate helps you see how 
@@ -404,27 +412,27 @@
           Questions</span></h3>
          <div class="lg:flex items-center justify-between gap-36 space-y-4">
           <div>
-            <img src="images/others/faq.png" alt="" class="max-w-md mx-auto">
+            <img src="./images/others/faq.png" alt="" class="max-w-md mx-auto">
           </div>
 
          <div class="space-y-4 max-w-xl mx-auto">
-          <div class="collapse collapse-arrow border rounded-sm">
+          <div class="collapse collapse-arrow border border-blue-300 rounded-sm">
             <input type="radio" name="my-accordion-2" checked="checked" />
             <div class="collapse-title text-xl font-medium text-[#383838]">What are the most important things I should know about riding a bike?</div>
             <div class="collapse-content">
               <p class="text-sm text-[#7E848C]">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
             </div>
           </div>
-          <div class="collapse collapse-arrow border rounded-sm">
+          <div class="collapse collapse-arrow border border-blue-300 rounded-sm">
             <input type="radio" name="my-accordion-2" />
             <div class="collapse-title text-xl font-medium text-[#383838]">What are the most important things I should know about riding a bike?</div>
           </div>
-          <div class="collapse collapse-arrow border rounded-sm">
+          <div class="collapse collapse-arrow border border-blue-300 rounded-sm">
             <input type="radio" name="my-accordion-2" />
             <div class="collapse-title text-xl font-medium text-[#383838]">My bike has been in storage is it safe to ride?</div>
           </div>
 
-          <div class="collapse collapse-arrow border rounded-sm">
+          <div class="collapse collapse-arrow border border-blue-300 rounded-sm">
             <input type="radio" name="my-accordion-2" />
             <div class="collapse-title text-xl font-medium text-[#383838]">What rules should I follow when riding my bike?</div>
           </div>
@@ -435,6 +443,35 @@
     </main>
 
     <!-- footer section -->
-    <footer></footer>
+    
+    <footer class="footer bg-black text-white text-base-content flex flex-row pl-8 py-14 md:px-40 manrope-font md:justify-between mt-8">
+      <nav>
+        <div class="space-x-4">
+          <a class="link link-hover">Download Now</a>
+          <a class="link link-hover">License</a>
+        </div>
+        <div class="space-x-4">
+          <a class="link link-hover">About</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Features</a>
+          <a class="link link-hover">Carreers</a>
+          <a class="link link-hover">Privacy Policy</a>
+        </div>
+        <div class="text-[#D9DBE1] text-xs mt-8 order-2">@ 2025-All rights reserved to Nurul Alam</div>
+      </nav>
+      <nav>
+        <h6 class="font-medium">Get the App</h6>
+        <div class="flex flex-col gap-4">
+          <a>
+            <img src="images/others/android.png" alt="" class="max-w-40">
+          </a>
+          <a>
+            <img src="images/others/ios.png" alt="" class="max-w-40">
+          </a>
+        </div>
+      </nav>
+    </footer>
+     
+    
   </body>
 </html>
